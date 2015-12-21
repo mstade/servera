@@ -1,0 +1,36 @@
+{
+  "name": "servera",
+  "version": "0.0.0",
+  "description": "Simple web development server focused on two things:",
+  "bin": {
+    "servera": "lib/cli.js"
+  },
+  "main": "lib/api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websdk/servera.git"
+  },
+  "author": "Marcus Stade <marcus@stade.se> (http://madebystade.se/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/websdk/servera/issues"
+  },
+  "homepage": "https://github.com/websdk/servera#readme",
+  "dependencies": {
+    "cliui": "3.1.0",
+    "ecstatic": "1.3.1",
+    "funkis": "0.2.0",
+    "opener": "1.4.1",
+    "request": "2.67.0",
+    "window-size": "0.1.4",
+    "yargs": "3.31.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.3.17",
+    "babel-preset-es2015": "6.3.13",
+    "source-map-support": "0.4.0"
+  }
+}
