@@ -1,6 +1,6 @@
 {
   "name": "@websdk/servera",
-  "version": "0.0.0",
+  "version": "0.0.1-mvp.0",
   "description": "Simple web development server focused on two things:",
   "bin": {
     "servera": "lib/cli.js"
