@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- node
+- iojs
+- '4'
+- '0.12'
+install: make clean build
+deploy:
+  provider: npm
+  email: marcus@stade.se
+  api_key:
+    secure: B9d/SScqDGVygDIM1LCq+HKJzOEq4aeQMM22Gk7HAtz9bGqWHsn+pkkZNOXS4K6KaylDHR1/94G7sdIJHWIteOUE9u3Bp7ORwgjpDk5uRrvK7A/74tmhNgOAS1JenUOEhoZ05GxGkXMjPJE6rThPBiS1vAUtBmDV1zi9KEC/2hf46icpix4rvybEplukaW+WKZrgzau1ROO0IvCOwh/pKaB+PIrnzRYsGSfFfYGpZNIA1PBwqAaeAuGQ5QKd4Q1uXsEfmpqSRFS8m+PnXJ2kQv5aUDfJiGzpq3K8mraa0n1/Faj2GOiGdnF/bvyjDQZMSIu4Zy8+/sflQwxMHZYCsZPS9rqwiiAMnpDmhjiSfVPYEzXg0ckPETY+o/WJ8OK0xvd7c411h5nb/dIuS3pbRZd1v9MJpeGszS7Qm+TMTJ6sKfShd8gyvD1TA2pmc2tB/S/GA1QWGuf7993k/ZCiagoXtYmP7iwWEK05CJLkmtcf5IDKgIDuZ3ABtGmWejd/DGQi6x3BSrYdDeRtA7JyE2V5ACbX3BqIO2zF8JBsprPWvLbuKnrjV++sM4g65qIziP1fVXlI4G7HprUIABA+v2IVQLtp+M3A7Hb08SwtiaLfcCLNOtfOcG3yEAkciMHRBV4DA4e2cMt3NlOoCcZI2JTyvw7/DzLkqt8irFyvJc8=
+  on:
+    tags: true
+    repo: websdk/servera
