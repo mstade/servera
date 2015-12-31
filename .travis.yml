@@ -5,6 +5,7 @@ node_js:
 - '4'
 - '0.12'
 install: make clean build
+script: echo 'no tests.'
 deploy:
   provider: npm
   email: marcus@stade.se
